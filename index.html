@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Weather Forecast Tracker</h1>
+  <div class="weather-form">
+    <input type="text" id="city-name" placeholder="City Name" required>
+    <input type="number" id="temperature" placeholder="Temperature (°C)" required>
+    <input type="text" id="condition" placeholder="Condition (e.g., Sunny)" required>
+    <button id="add-weather">Add Weather</button>
+  </div>
+
+  <h2>Weather Data</h2>
+  <ul id="weather-list" class="weather-list"></ul>
+  <p id="hottest-city" class="hottest-city"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
